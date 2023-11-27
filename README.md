@@ -3,6 +3,7 @@
 ## Fonctionnalités implementée
 - Parcourir la gallery des oeuvres d'art
 - Recherche les oeuvres d'art
+- Page détails oeuvre d'art
 
 ## Fonctionnalités restante
 - Authentification
