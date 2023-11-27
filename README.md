@@ -1,4 +1,4 @@
-# Art-Institut-Of-Chicago
+# QUADRA AO - Test - Art-Institut-Of-Chicago
 
 ## Fonctionnalités implementée
 - Parcourir la gallery des oeuvres d'art
