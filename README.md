@@ -1,14 +1,13 @@
-# art-institut-of-chicago
+# Art-Institut-Of-Chicago
 
-This template should help get you started developing with Vue 3 in Vite.
+## Fonctionnalités implementée
+- Parcourir la gallery des oeuvres d'art
+- Recherche les oeuvres d'art
 
-## Recommended IDE Setup
+## Fonctionnalités restante
+- Authentification
+- Modification d'une oeuvre d'art avec persistence dans le store
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
 
 ## Project Setup
 
