@@ -110,9 +110,10 @@ function handleArtworkClicked(artwork) {
           <img v-if="artwork.image_id !== null" class="card-image" :src="`https://www.artic.edu/iiif/2/${artwork.image_id}/full/843,/0/default.jpg`">
           <img v-else class="card-image" src="@/assets/default_image.png">
           <div class="card-footer">
-            <p class="artwork-name">{{ artwork.title }}</p>
-            <p v-if="artwork.artist_title !== null" class="author-name">{{ artwork.artist_title }}</p>
-            <p v-else class="author-name"> --- </p>
+            <h4 v-if="artwork.title.length >=20" class="artwork-name">{{ artwork.title.substring(0, 23) }}...</h4>
+            <h4 v-else class="artwork-name">{{ artwork.title }}</h4>
+            <h5 v-if="artwork.artist_title !== null" class="author-name">{{ artwork.artist_title }}</h5>
+            <h5 v-else class="author-name"> --- </h5>
           </div>
         </div>
       </div>
@@ -223,6 +224,7 @@ main {
 
 .artwork-name {
   color: #FFF2F5;
+  font-weight: bold;
 }
 
 .author-name {
